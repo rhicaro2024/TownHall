@@ -171,6 +171,10 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+.slicknav_menu {
+	display: none;
+	background-color: #800000 !important;
+}
 
 @media only screen and (max-width: 590px) {
 	aside h2 {
@@ -184,6 +188,13 @@ footer p {
 	}
 }
 @media only screen and (max-width: 385px) {
+	#nav_menu {
+		display:none;
+	}
+	.slicknav_menu {
+		display: block;
+        background-color: #800000 !important;
+	}
 	header img {
 		float: none;
 	}
